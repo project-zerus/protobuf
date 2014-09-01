@@ -49,8 +49,6 @@ cc_library(
     'src/google/protobuf/stubs/substitute.cc',
   ],
   deps = [
-    '//thirdparty/glog:glog',
     '//zlib:zlib',
   ]
 )
-
