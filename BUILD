@@ -50,5 +50,6 @@ cc_library(
   ],
   deps = [
     '//zlib:zlib',
-  ]
+  ],
+  warning = 'no',
 )
